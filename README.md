@@ -1,5 +1,7 @@
 # Facial Emotion Recognition
 
+![Facial Emotion Recognition](facial_recognition.png)
+
 Recognizing human facial expressions plays a significant role in understanding emotions and behavior in various applications such as human-computer interaction, mental health analysis, and user experience evaluation.
 
 This project focuses on detecting and classifying facial emotions in real-time using deep learning techniques. Human facial expressions are generally categorized into multiple emotional states such as angry, happy, sad, neutral, and surprise. Each of these emotions has distinct visual patterns that can be learned by a Convolutional Neural Network (CNN).
