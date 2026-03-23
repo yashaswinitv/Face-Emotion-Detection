@@ -1,34 +1,46 @@
-Facial Emotion Recognition
+# Facial Emotion Recognition
 
-Recognizing human facial expressions is important in various domains. By analyzing facial expressions, we can predict how content affects a person and gain insights into their emotional reactions. Human facial expressions can be categorized into seven states: angry, disgust, fear, happy, neutral, sad, and surprise. Each expression has unique features that are essential for accurate classification.
+Recognizing human facial expressions is significant in various domains. Based on the expressions of humans, we can predict the type of content that affects them and gain insights about their facial reactions. Human facial expressions consist of seven states: **angry, disgust, fear, happy, neutral, sad, and surprise**. Each expression has unique features important for classification.
 
-Usage
+## Usage
+Code can be accessed through the provided Jupyter Notebook [file](https://github.com/faizan387/Facial-Emotion-Recognition/blob/master/Facial_Expression_Training.ipynb)
 
-The code can be accessed through the provided Jupyter Notebook file
-.
+## Dependencies
+* Keras
+* OpenCV
+* Matplotlib
+* Numpy
+* TensorFlow
+* Pandas
+* Seaborn
 
-Dependencies
-Keras
-OpenCV
-Matplotlib
-NumPy
-TensorFlow
-Pandas
-Seaborn
-Dataset
+## Dataset
+The dataset consists of **35,887 samples**, with 80% used for training and 20% for testing.
 
-The dataset consists of 35,887 samples, divided into 80% training and 20% testing data.
+## Sample Image
+<p align="center">
+  <img width="500" alt="Facial Recognition" src="image/facial_recognition.png">
+</p>
 
-Sample Image from Dataset
-<p align="center"> <img width="515" alt="Facial Expression Sample" src="./facial_recognition.png"> </p>
-CNN Model Details
+## CNN Model Details
+The Convolutional Neural Network model used for this problem is summarized below:
 
-The Convolutional Neural Network (CNN) model used for this problem consists of multiple convolutional and pooling layers for feature extraction, followed by fully connected layers for classification. This architecture allows the model to learn unique patterns for each facial expression effectively.
+<p align="center">
+  <img width="696" alt="CNN model summary" src="image/facial_recognition.png">
+</p>
 
-Prediction Results
+## Prediction Results
+The facial expression in the sample is classified as **Neutral**. Frames are extracted from a video every second, and the predicted expression updates each second.
 
-The model can classify facial expressions from video frames. For example, in a sample frame, the expression may be detected as Neutral, and predictions are updated every second.
+<p align="center">
+  <img width="500" alt="Prediction result 1" src="image/facial_recognition.png">
+</p>
+<p align="center">
+  <img width="500" alt="Prediction result 2" src="image/facial_recognition.png">
+</p>
 
-Author
+---
 
-👤 Yashaswini Talakadu Vijaykumar
+## Authors
+👤 **Yashaswini Talakadu Vijaykumar**  
+* GitHub: [@your-github-username](https://github.com/your-github-username)
