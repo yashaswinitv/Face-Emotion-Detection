@@ -11,7 +11,7 @@ Dependencies
 Keras
 OpenCV
 Matplotlib
-Numpy
+NumPy
 TensorFlow
 Pandas
 Seaborn
@@ -20,14 +20,14 @@ Dataset
 The dataset consists of 35,887 samples, divided into 80% training and 20% testing data.
 
 Sample Image from Dataset
-<p align="center"> <img width="515" alt="Facial Expression Sample" src="facial_recognition.png"> </p>
+<p align="center"> <img width="515" alt="Facial Expression Sample" src="./facial_recognition.png"> </p>
 CNN Model Details
 
-The Convolutional Neural Network (CNN) model used for this problem consists of several convolutional and pooling layers for feature extraction, followed by fully connected layers for classification.
+The Convolutional Neural Network (CNN) model used for this problem consists of multiple convolutional and pooling layers for feature extraction, followed by fully connected layers for classification. This architecture allows the model to learn unique patterns for each facial expression effectively.
 
 Prediction Results
 
-The model can classify facial expressions from video frames. For instance, in a sample frame, the expression can be detected as Neutral, and predictions are updated every second.
+The model can classify facial expressions from video frames. For example, in a sample frame, the expression may be detected as Neutral, and predictions are updated every second.
 
 Author
 
