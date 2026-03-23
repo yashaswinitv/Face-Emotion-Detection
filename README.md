@@ -1,30 +1,34 @@
-# Facial Recognition Project
+Facial Emotion Recognition
 
-This repository contains a **Facial Recognition** project that detects and recognizes faces using machine learning models.  
+Recognizing human facial expressions is important in various domains. By analyzing facial expressions, we can predict how content affects a person and gain insights into their emotional reactions. Human facial expressions can be categorized into seven states: angry, disgust, fear, happy, neutral, sad, and surprise. Each expression has unique features that are essential for accurate classification.
 
----
+Usage
 
-## Demo Image
+The code can be accessed through the provided Jupyter Notebook file
+.
 
-Here is a sample output of the facial recognition system:
+Dependencies
+Keras
+OpenCV
+Matplotlib
+Numpy
+TensorFlow
+Pandas
+Seaborn
+Dataset
 
-![Facial Recognition](image/facial_recognition.png)
+The dataset consists of 35,887 samples, divided into 80% training and 20% testing data.
 
-*Figure: Facial Recognition Output*
+Sample Image from Dataset
+<p align="center"> <img width="515" alt="Facial Expression Sample" src="facial_recognition.png"> </p>
+CNN Model Details
 
----
+The Convolutional Neural Network (CNN) model used for this problem consists of several convolutional and pooling layers for feature extraction, followed by fully connected layers for classification.
 
-## Features
+Prediction Results
 
-- Detects faces in images and videos
-- Recognizes multiple faces simultaneously
-- Works in real-time
+The model can classify facial expressions from video frames. For instance, in a sample frame, the expression can be detected as Neutral, and predictions are updated every second.
 
----
+Author
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/your-repo.git
+👤 Yashaswini Talakadu Vijaykumar
