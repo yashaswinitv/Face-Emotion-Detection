@@ -1,6 +1,6 @@
 # Facial Emotion Recognition
 
-![Facial Emotion Recognition](facial_recognition.png)
+![Facial Emotion Recognition](facial%20recognition.png)
 
 Recognizing human facial expressions plays a significant role in understanding emotions and behavior in various applications such as human-computer interaction, mental health analysis, and user experience evaluation.
 
