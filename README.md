@@ -35,4 +35,4 @@ After training, the model can predict facial expressions in new images or video 
 
 ## Authors
 👤 **Yashaswini Talakadu Vijaykumar**  
-* GitHub: [@your-github-username](https://github.com/your-github-username)
+* GitHub: yashaswinitv
